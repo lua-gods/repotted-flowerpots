@@ -1,0 +1,76 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/flower_pot",
+		"flowerpot": "block/flower_pot",
+		"dirt": "block/farmland_moist",
+		"bamboo": "block/bamboo_stalk",
+		"leaf": "block/bamboo_singleleaf"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [6, 0, 8, 16], "texture": "#bamboo"},
+				"east": {"uv": [6, 0, 8, 16], "texture": "#bamboo"},
+				"south": {"uv": [6, 0, 8, 16], "texture": "#bamboo"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#bamboo"},
+				"up": {"uv": [13, 0, 15, 2], "texture": "#bamboo", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 2, 8],
+			"to": [16, 18, 8],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#leaf"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#leaf"}
+			}
+		},
+		{
+			"name": "inner",
+			"from": [5, 6, 5],
+			"to": [11, 5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
+			"faces": {
+				"north": {"uv": [9, 10, 15, 11], "texture": "#flowerpot"},
+				"east": {"uv": [9, 10, 15, 11], "texture": "#flowerpot"},
+				"south": {"uv": [9, 10, 15, 11], "texture": "#flowerpot"},
+				"west": {"uv": [9, 10, 15, 11], "texture": "#flowerpot"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#dirt"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#flowerpot"}
+			}
+		},
+		{
+			"name": "rim",
+			"from": [4, 4, 4],
+			"to": [12, 6, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 1, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 10], "texture": "#flowerpot"},
+				"east": {"uv": [0, 8, 8, 10], "texture": "#flowerpot"},
+				"south": {"uv": [0, 8, 8, 10], "texture": "#flowerpot"},
+				"west": {"uv": [0, 8, 8, 10], "texture": "#flowerpot"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#flowerpot"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#flowerpot"}
+			}
+		},
+		{
+			"name": "base",
+			"from": [5, 0, 5],
+			"to": [11, 4, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -1, 8]},
+			"faces": {
+				"north": {"uv": [1, 10, 7, 14], "texture": "#flowerpot"},
+				"east": {"uv": [1, 10, 7, 14], "texture": "#flowerpot"},
+				"south": {"uv": [1, 10, 7, 14], "texture": "#flowerpot"},
+				"west": {"uv": [1, 10, 7, 14], "texture": "#flowerpot"},
+				"up": {"uv": [1, 8, 7, 14], "texture": "#flowerpot"},
+				"down": {"uv": [1, 8, 7, 14], "texture": "#flowerpot"}
+			}
+		}
+	]
+}
