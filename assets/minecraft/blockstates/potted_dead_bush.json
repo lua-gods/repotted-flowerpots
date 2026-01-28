@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/potted_dead_bush"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/flower_pot"
+      }
+    }
+  ]
+}

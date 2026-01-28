@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/potted_warped_roots"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/flower_pot"
+      }
+    }
+  ]
+}
