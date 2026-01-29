@@ -38,8 +38,8 @@
 		},
 		{
 			"name": "inner",
-			"from": [4.99, 6, 4.99],
-			"to": [11.01, 5, 11.01],
+			"from": [4.95, 6, 4.95],
+			"to": [11.05, 5, 11.05],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
 			"faces": {
 				"north": {"uv": [9, 10, 15, 11], "texture": "#flowerpot"},
