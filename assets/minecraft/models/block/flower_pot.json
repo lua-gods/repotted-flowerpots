@@ -12,7 +12,7 @@
 			"name": "rim",
 			"from": [4, 4, 4],
 			"to": [12, 6, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6, 1, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [0, 8, 8, 10], "texture": "#flowerpot"},
 				"east": {"uv": [0, 8, 8, 10], "texture": "#flowerpot"},
@@ -26,21 +26,21 @@
 			"name": "base",
 			"from": [5, 0, 5],
 			"to": [11, 4, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6, -1, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [1, 10, 7, 14], "texture": "#flowerpot"},
 				"east": {"uv": [1, 10, 7, 14], "texture": "#flowerpot"},
 				"south": {"uv": [1, 10, 7, 14], "texture": "#flowerpot"},
 				"west": {"uv": [1, 10, 7, 14], "texture": "#flowerpot"},
 				"up": {"uv": [1, 8, 7, 14], "texture": "#flowerpot"},
-				"down": {"uv": [1, 8, 7, 14], "texture": "#flowerpot"}
+				"down": {"uv": [9, 1, 15, 7], "texture": "#flowerpot"}
 			}
 		},
 		{
 			"name": "inner",
 			"from": [4.95, 6, 4.95],
 			"to": [11.05, 5, 11.05],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [9, 10, 15, 11], "texture": "#flowerpot"},
 				"east": {"uv": [9, 10, 15, 11], "texture": "#flowerpot"},
